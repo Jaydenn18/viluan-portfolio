@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jaydenn — Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,500;0,600;1,400;1,500&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Sidebar navigation — a case-file tab index -->
+<nav class="sidenav" id="sidenav" aria-label="Primary">
+  <span class="sidenav-mark" aria-hidden="true">JD</span>
+  <div class="sidenav-track">
+    <button class="nav-btn" data-target="home" aria-current="page" aria-label="Home">
+      <svg viewBox="0 0 24 24"><path d="M3 11.5 12 4l9 7.5"/><path d="M5 10v9a1 1 0 0 0 1 1h4v-6h4v6h4a1 1 0 0 0 1-1v-9"/></svg>
+      <span class="nav-index">01</span>
+      <span class="nav-label">Home</span>
+    </button>
+    <button class="nav-btn" data-target="projects" aria-label="Projects">
+      <svg viewBox="0 0 24 24"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg>
+      <span class="nav-index">02</span>
+      <span class="nav-label">Work</span>
+    </button>
+    <button class="nav-btn" data-target="about" aria-label="About Me">
+      <svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 4-6 8-6s8 2 8 6"/></svg>
+      <span class="nav-index">03</span>
+      <span class="nav-label">Profile</span>
+    </button>
+    <button class="nav-btn" data-target="contact" aria-label="Contact">
+      <svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m4 7 8 6 8-6"/></svg>
+      <span class="nav-index">04</span>
+      <span class="nav-label">Contact</span>
+    </button>
+  </div>
+</nav>
+
+<main id="app">
+
+  <!-- HOME -->
+  <section class="view" id="home" data-view>
+    <div class="panel hero-panel">
+      <div class="hero-photo-ring">
+        <img id="profilePhoto" src="" alt="" class="hero-photo">
+      </div>
+      <div class="hero-text">
+        <h1 class="hero-name">Hi, I'm <span class="grad-text" id="profileName">Name</span></h1>
+        <p class="hero-title" id="profileTitle">Title</p>
+        <p class="hero-tagline" id="profileTagline"></p>
+        <p class="hero-subtext" id="profileSubtext"></p>
+        <div class="hero-actions">
+          <button class="btn btn-primary" id="ctaPrimary"></button>
+          <a class="btn btn-ghost" id="ctaSecondary" href="#" target="_blank" rel="noopener"></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="view" id="projects" data-view>
+    <div class="panel">
+      <header class="section-head">
+        <p class="eyebrow">Exhibit A — Selected Work</p>
+        <h2>My Projects</h2>
+        <p class="section-sub">A collection of things I've designed and built.</p>
+      </header>
+      <div class="project-grid" id="projectGrid"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="view" id="about" data-view>
+    <div class="panel">
+      <header class="section-head">
+        <p class="eyebrow">Exhibit B — Profile</p>
+        <h2>About Me</h2>
+        <p class="section-sub" id="aboutBio"></p>
+      </header>
+
+      <div class="about-grid">
+
+        <div class="about-card" id="skillsCard">
+          <h3 class="card-title"><span class="card-icon">◈</span> Technical Skills</h3>
+          <div class="skill-list" id="skillList"></div>
+        </div>
+
+        <div class="about-card" id="languagesCard">
+          <h3 class="card-title"><span class="card-icon">◈</span> Languages</h3>
+          <div class="skill-list" id="languageList"></div>
+        </div>
+
+        <div class="about-card" id="educationCard">
+          <h3 class="card-title"><span class="card-icon">◈</span> Education</h3>
+          <div class="entry-list" id="educationList"></div>
+        </div>
+
+        <div class="about-card" id="trainingsCard">
+          <h3 class="card-title"><span class="card-icon">◈</span> Trainings</h3>
+          <div class="entry-list" id="certificationList"></div>
+        </div>
+
+      </div>
+
+      <div class="experience-block">
+        <h3 class="card-title standalone"><span class="card-icon">◈</span> Leadership &amp; Experience</h3>
+        <div class="experience-groups" id="experienceGroups"></div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="view" id="contact" data-view>
+    <div class="panel">
+      <header class="section-head">
+        <p class="eyebrow">Exhibit C — Contact</p>
+        <h2>Contact</h2>
+        <p class="section-sub">Have a project in mind, or just want to say hi? Reach out.</p>
+      </header>
+
+      <div class="contact-grid">
+        <div class="contact-info">
+          <ul class="info-list" id="contactInfoList"></ul>
+          <div class="social-row" id="socialRow"></div>
+        </div>
+
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="field">
+            <label for="cf-name">Name</label>
+            <input type="text" id="cf-name" name="name" required autocomplete="name">
+          </div>
+          <div class="field">
+            <label for="cf-email">Email</label>
+            <input type="email" id="cf-email" name="email" required autocomplete="email">
+          </div>
+          <div class="field">
+            <label for="cf-message">Message</label>
+            <textarea id="cf-message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" id="cf-submit">Send Message</button>
+          <p class="form-note" id="formNote" role="status"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>

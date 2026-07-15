@@ -1,0 +1,185 @@
+{
+  "profile": {
+    "name": "Jaydenn",
+    "title": "Web Developer",
+    "tagline": "I craft intuitive digital experiences that put people first — blending clean interfaces with thoughtful interaction design.",
+    "subtext": "Passionate about accessible design, rapid prototyping, and turning complex problems into simple, elegant flows.",
+    "photo": "assets/profile-photo.png",
+    "resume": "assets/RESUME.pdf",
+    "ctaPrimary": { "label": "View My Work", "target": "projects" },
+    "ctaSecondary": { "label": "Download CV", "href": "assets/RESUME.pdf" }
+  },
+
+  "projects": [
+    {
+      "title": "Layagconnect",
+      "description": "LayagConnect is a multi-user chat and membership application built in Java. It follows a client-server architecture, the Server and the Client.",
+      "thumbnail": "assets/projects/layagconnect.png",
+      "link": "https://github.com/Jaydenn18/compro2-2026/tree/main/finals",
+      "tags": ["Java", "Multithreading"]
+    },
+    {
+      "title": "Movie Rental System",
+      "description": "A simple terminal-based movie rental system. It automatically computes total cost, total stocks, and total sales.",
+      "thumbnail": "assets/projects/movierental.png",
+      "link": "https://github.com/Jaydenn18",
+      "tags": ["Java", "Terminal-based"]
+    },
+    {
+      "title": "Layag Website UI/UX",
+      "description": "Frontend design of the Layag Website. It follows color theory, and basic design principles.",
+      "thumbnail": "assets/projects/uiux.png",
+      "link": "https://github.com/Jaydenn18",
+      "tags": ["Figma", "UI", "UX"]
+    }
+  ],
+
+  "about": {
+    "bio": "I'm a UI/UX designer and front-end developer with a soft spot for clean systems — in code and in communities. Outside of design tools, I spend my time building programs that give young people a place to grow, lead, and be heard.",
+
+    "skills": [
+      { "name": "Java", "level": 89 },
+      { "name": "JavaScript", "level": 78 },
+      { "name": "UI/UX Design", "level": 92 },
+      { "name": "Figma", "level": 94 },
+      { "name": "HTML / CSS", "level": 95 }
+    ],
+
+    "education": [
+      {
+        "degree": "Bachelor Science in Information Technology",
+        "institution": "Lorma Colleges",
+        "period": "2025 - Present"
+      },
+      {
+        "degree": "SHS - Science, Technology, Engineering & Mathematics ",
+        "institution": "La Union National High School",
+        "period": "2023 - 2025"
+      },
+      {
+        "degree": "JHS - Science, Technology & Engineering",
+        "institution": "La Union National High School",
+        "period": "2019 - 2023"
+      },
+      {
+        "degree": "Elementary",
+        "institution": "Catbangen Central School",
+        "period": "2013 - 2019"
+      }
+    ],
+
+    "trainings": [
+      { "name": "Computer Science, Harvard CS50 ", 
+        "issuer": "freeCodeCamp", 
+        "year": "2022" },
+
+      { "name": "Youth Leadership Training Seminar", 
+        "issuer": "United Pentecostal Church", 
+        "year": "2023" },
+
+      { "name": "Division Training on Innovation and Robotics", 
+        "issuer": "DepEd San Fernando La Union", 
+        "year": "2023" },
+      
+      { "name": "LYDC Mandatory Training", 
+        "issuer": "Local Youth Development Office", 
+        "year": "2023" },
+
+      { "name": "1st Provincial Youth Parliament", 
+        "issuer": "Provincial Government of La Union", 
+        "year": "2024" }
+    ],
+
+
+
+
+    "languages": [
+      { "name": "Filipino", "code": "FIL", "level": 95 },
+      { "name": "English", "code": "EN", "level": 90 }
+    ],
+
+    "experience": [
+      {
+        "category": "Leadership",
+        "title": "Founder & President",
+        "organization": "Layag - La Union Chapter",
+        "period": "2026 — Present",
+        "description": "Founded an organization focused on science, technology, and community impact."
+      },
+      {
+        "category": "Leadership",
+        "title": "Committee Chairperson on Governance",
+        "organization": "Provincial Youth Parliament",
+        "period": "2024 - 2025",
+        "description": "Authored a pioneering resolution advocating for the integration of voter education for SK voters aged 15–17 in local youth development plans "
+      },
+      {
+        "category": "Leadership",
+        "title": "City Youth Vice Mayor",
+        "organization": "City Youth Officials",
+        "period": "2023 - 2024",
+        "description": "Drafted resolutions and participated in formal training on parliamentary procedures with city government officials "
+      },
+      {
+        "category": "Leadership",
+        "title": "Vie President",
+        "organization": "LUNHS - Supreme Secondary Learner Government",
+        "period": "2023 - 2024",
+        "description": "Proposed and supported initiatives promoting student welfare and engagement"
+      },      
+      {
+        "category": "Work Experience",
+        "title": "Social Welfare Intern",
+        "organization": "Department of Science & Technology",
+        "period": "2025",
+        "description": "Applied scientific knowledge to support local development initiatives. "
+      },
+      {
+        "category": "Work Experience",
+        "title": "Public Information Office Intern",
+        "organization": "City Government of San Fernando",
+        "period": "2025",
+        "description": "Designed publication materials for government campaigns using graphic design tools."
+      },
+      {
+        "category": "Achievements",
+        "title": "RA 7687 Scholarship",
+        "organization": "Department of Science & Technology",
+        "period": "2025 - Present",
+        "description": "Competitive national scholarship awarded to outstanding STEM students. Selected as one of the top 12% of examinees (10,907 out of 84,518) for excellence in science and mathematics"
+      },
+      {
+        "category": "Achievements",
+        "title": "Valedictorian",
+        "organization": "La Union National High School",
+        "period": "2025",
+        "description": "Awarded as the most excellent student at La Union National High School"
+      },
+      {
+        "category": "Achievements",
+        "title": "Bronze Medalist",
+        "organization": "International Math Olympiad Competition in Southeast Asia",
+        "period": "2021",
+        "description": "Competitive mathematics competition in the Southeast Asia"
+      },
+      {
+        "category": "Achievements",
+        "title": "Champion - National Science Quest, Robotics Category",
+        "organization": "DepEd Philippines",
+        "period": "2023",
+        "description": "Nationwide competition in the Philippines."
+      }      
+    ]
+  },
+
+  "contact": {
+    "email": "louiejaydenn.viluan@lorma.edu",
+    "phone": "+63 961 2612 859",
+    "location": "City of San Fernando, La Union, Philippines",
+    "availability": "Open to freelance projects and full-time roles",
+    "socials": [
+      { "platform": "GitHub", "url": "https://github.com/Jaydenn18", "icon": "github" }
+
+    ]
+  }
+}
