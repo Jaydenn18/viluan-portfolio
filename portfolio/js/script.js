@@ -30,14 +30,14 @@ function escapeHtml(str) {
 
 async function loadData() {
   try {
-    const res = await fetch('data.json', { cache: 'no-store' });
+    const res = await fetch('data/data.json', { cache: 'no-store' });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     return await res.json();
   } catch (err) {
-    console.error('Could not load data.json — is this being served over http(s)?', err);
+    console.error('Could not load data/data.json — is this being served over http(s)?', err);
     document.getElementById('app').innerHTML = `
       <div class="panel" style="text-align:center;">
-        <p style="color:#f87171;">Couldn't load <code>data.json</code>.</p>
+        <p style="color:#f87171;">Couldn't load <code>data/data.json</code>.</p>
         <p style="color:var(--text-dim);font-size:13px;">
           If you opened this file directly (file://), browsers block local JSON fetches.
           Run a local server instead, e.g. <code>npx serve</code> or <code>python3 -m http.server</code>,
@@ -83,7 +83,7 @@ function renderProjects(data) {
   const projects = Array.isArray(data.projects) ? data.projects : [];
 
   if (projects.length === 0) {
-    grid.innerHTML = `<p class="empty-state">No projects added yet — add entries to the "projects" array in data.json.</p>`;
+    grid.innerHTML = `<p class="empty-state">No projects added yet — add entries to the "projects" array in data/data.json.</p>`;
     return;
   }
 
@@ -161,7 +161,7 @@ function renderExperience(data) {
   container.innerHTML = '';
 
   if (items.length === 0) {
-    container.innerHTML = `<p class="empty-state">No experience entries yet — add items to about.experience in data.json.</p>`;
+    container.innerHTML = `<p class="empty-state">No experience entries yet — add items to about.experience in data/data.json.</p>`;
     return;
   }
 
