@@ -1,109 +1,66 @@
-# Jaydenn's Professional & Creative Portfolio
+# 🌐 Jaydenn's Personal Portfolio Website
 
-> **Web Developer & UI/UX Designer**  
-> *"I craft intuitive digital experiences that put people first — blending clean interfaces with thoughtful interaction design."*  
-> Passionate about accessible design, rapid prototyping, and turning complex problems into simple, elegant flows.
+Welcome to the repository for my personal portfolio website! This website serves as a digital home where I showcase my work as a web developer and UI/UX designer, along with my journey in community leadership and civic action[cite: 1].
 
----
-
-## 🙋‍♂️ Profile Overview
-- **Name:** Jaydenn
-- **Title:** Web Developer / UI/UX Designer / Community Leader
-- **Location:** City of San Fernando, La Union, Philippines
-- **Email:** louiejaydenn.viluan@lorma.edu
-- **Phone:** +63 961 2612 859
-- **GitHub:** [github.com/Jaydenn18](https://github.com/Jaydenn18)
-- **Availability:** Open to freelance projects and full-time roles
+> **Live Demo:** [https://jaydenn18.github.io/viluan-portfolio/]  
 
 ---
 
-## 💡 Personal Insights & Philosophy
-I'm a UI/UX designer and front-end developer with a soft spot for clean systems — in code and in communities. Outside of design tools, I spend my time building programs that give young people a place to grow, lead, and be heard. 
+## ✨ Personal Insights & Design Philosophy
 
-My work sits at the intersection of technology, design, and civic action. Whether designing interfaces on Figma or drafting policies as a youth official, I believe that **good systems are designed with empathy and usability first.**
+> "I'm a UI/UX designer and front-end developer with a soft spot for clean systems — in code and in communities."[cite: 1]
 
----
+My work is driven by the belief that **good systems must be designed with empathy, accessibility, and usability first.** Whether I am mapping out intuitive user flows in Figma, writing clean code in Java or JavaScript, or drafting youth policies in local government, my goal remains the same: to turn complex problems into simple, elegant, and human-centered solutions[cite: 1]. 
 
-## 🛠️ Skills & Expertise
-
-### Technical & Creative Skills
-* **HTML / CSS** — `95%`
-* **Figma** — `94%`
-* **UI/UX Design** — `92%`
-* **Java** — `89%`
-* **JavaScript** — `78%`
-
-### Languages
-* **Filipino (FIL):** Native/Bilingual Proficiency (`95%`)
-* **English (EN):** Professional Working Proficiency (`90%`)
+When I’m not coding or designing, I focus my energy on creating programs that empower young people to lead, grow, and make an impact[cite: 1].
 
 ---
 
-## 📁 Highlighted Projects
+## 🚀 Website Features
 
-### 1. **Layagconnect**
-* **Description:** A multi-user chat and membership application built in Java following a client-server architecture.
-* **Core Tech:** `Java`, `Multithreading`
-* **Repository:** [View Code](https://github.com/Jaydenn18/compro2-2026/tree/main/finals)
+This portfolio is structured to give visitors a comprehensive look at my multi-disciplinary background:
 
-### 2. **Movie Rental System**
-* **Description:** A simple terminal-based movie rental system that automatically computes total cost, total stocks, and total sales.
-* **Core Tech:** `Java`, `Terminal-based`
-* **Repository:** [View Code](https://github.com/Jaydenn18)
-
-### 3. **Layag Website UI/UX**
-* **Description:** Frontend design of the Layag Website following visual design principles and color theory.
-* **Core Tech:** `Figma`, `UI`, `UX`
-* **Repository:** [View Design](https://github.com/Jaydenn18)
+*   **Interactive Project Showcase:** A curated gallery of my key development and design projects, complete with links to live repositories and Figma files[cite: 1].
+*   **Skills & Expertise Matrix:** A visual breakdown of my proficiency in design tools and programming languages[cite: 1].
+*   **Civic & Leadership Timeline:** A dedicated space highlighting my journey as an activist and community leader, from local youth governance to founding civic organizations[cite: 1].
+*   **Academic & Training Honors:** A chronicle of my educational milestones, including competitive achievements and national scholarships[cite: 1].
 
 ---
 
-## 🏆 Key Achievements & Awards
+## 🛠️ Featured Projects on the Site
 
-* **Valedictorian** (La Union National High School, 2025)  
-  *Awarded as the most excellent student of the graduating class.*
-* **RA 7687 Scholar** (Department of Science & Technology, 2025 - Present)  
-  *Competitive national scholarship awarded to outstanding STEM students. Ranked in the top 12% of examinees nationwide (10,907 out of 84,518).*
-* **Champion - National Science Quest, Robotics Category** (DepEd Philippines, 2023)  
-  *Nationwide robotics competition champion in the Philippines.*
-* **Bronze Medalist** (International Math Olympiad Competition in Southeast Asia, 2021)  
-  *Recognized for mathematical excellence on an international stage.*
+The portfolio spotlights three major projects that represent my technical and creative capabilities:
+
+1.  **Layagconnect:** A multi-user chat and membership application built in Java, leveraging a client-server architecture and multithreading[cite: 1].
+2.  **Movie Rental System:** A lightweight, terminal-based CLI system programmed in Java that automates rental costs, stock levels, and sales metrics[cite: 1].
+3.  **Layag Website UI/UX:** A comprehensive frontend interface designed in Figma, structured strictly around color theory and fundamental human-interface guidelines[cite: 1].
 
 ---
 
-## 💼 Leadership & Work Experience
+## 📈 Technical Stack
 
-### **Founder & President** — *Layag - La Union Chapter* (2026 - Present)
-* Founded an organization focused on promoting science, technology, and positive community impact.
-
-### **Committee Chairperson on Governance** — *Provincial Youth Parliament* (2024 - 2025)
-* Authored a pioneering resolution advocating for the integration of voter education for Sangguniang Kabataan (SK) voters aged 15–17 in local youth development plans.
-
-### **City Youth Vice Mayor** — *City Youth Officials* (2023 - 2024)
-* Drafted resolutions and participated in formal parliamentary training with municipal and city officials.
-
-### **Vice President** — *LUNHS Supreme Secondary Learner Government* (2023 - 2024)
-* Proposed and supported student welfare initiatives, advocating for better campus experiences.
-
-### **Social Welfare Intern** — *Department of Science & Technology* (2025)
-* Applied scientific knowledge to assist and support local socio-economic development initiatives.
-
-### **Public Information Office Intern** — *City Government of San Fernando* (2025)
-* Designed campaign materials and publications using advanced graphic design and visual tools.
+This website is built to be fast, responsive, and highly accessible, using:
+*   **Figma** (UI/UX Design & Prototyping)[cite: 1]
+*   **HTML5 / CSS3** (Semantic layout and custom responsive styling)[cite: 1]
+*   **JavaScript** (Dynamic interactions and smooth animations)[cite: 1]
 
 ---
 
-## 🎓 Education & Training
+## 🏆 Key Background Highlights
 
-### Education
-* **Bachelor of Science in Information Technology** — Lorma Colleges (2025 - Present)
-* **SHS - Science, Technology, Engineering & Mathematics** — La Union National High School (2023 - 2025)
-* **JHS - Science, Technology & Engineering** — La Union National High School (2019 - 2023)
-* **Elementary** — Catbangen Central School (2013 - 2019)
+Visitors to the site will also find details about my academic and leadership milestones, including:
+*   **DOST RA 7687 Scholar:** Selected in the top 12% of examinees nationwide for excellence in science and mathematics[cite: 1].
+*   **Valedictorian:** Graduated at the top of my class from La Union National High School (2025)[cite: 1].
+*   **Youth Governance:** Served as City Youth Vice Mayor and Committee Chairperson on Governance, authoring voter-education policies for SK voters[cite: 1].
+*   **Robotics Champion:** Awarded Champion in the National Science Quest, Robotics Category[cite: 1].
 
-### Certifications & Trainings
-* **1st Provincial Youth Parliament** (Provincial Government of La Union, 2024)
-* **LYDC Mandatory Training** (Local Youth Development Office, 2023)
-* **Youth Leadership Training Seminar** (United Pentecostal Church, 2023)
-* **Division Training on Innovation and Robotics** (DepEd San Fernando La Union, 2023)
-* **Computer Science, Harvard CS50** (freeCodeCamp, 2022)
+---
+
+## 📬 Let's Connect!
+
+I am always open to freelance projects, collaboration opportunities, or chatting about design and community building![cite: 1]
+
+*   **Email:** [louiejaydenn.viluan@lorma.edu](mailto:louiejaydenn.viluan@lorma.edu)[cite: 1]
+*   **Phone:** +63 961 2612 859[cite: 1]
+*   **GitHub:** [@Jaydenn18](https://github.com/Jaydenn18)[cite: 1]
+*   **Location:** City of San Fernando, La Union, Philippines[cite: 1]
